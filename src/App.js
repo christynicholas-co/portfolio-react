@@ -1,10 +1,12 @@
-import "./styles.css";
+import React from "react";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Hello Bytes&Brushes</h1>
-      <h2>Currently editing, come back often to see some magic happen!</h2>
+    <div>
+      <h1>Hello, Bytes& Brushes!</h1>
+      <p>This is my starter React app.</p>
     </div>
   );
 }
+
+export default App;

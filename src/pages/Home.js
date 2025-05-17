@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 import "../styles/Header.css";
 import "../styles/Footer.css";
@@ -9,8 +11,12 @@ import "../styles/ContentBlocks.css";
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to My Portfolio</h1>
-      <p>Discover my work and experience in web development and design.</p>
+      <Header />
+      <main>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my work and experience in web development and design.</p>
+      </main>
+      <Footer />
     </div>
   );
 };

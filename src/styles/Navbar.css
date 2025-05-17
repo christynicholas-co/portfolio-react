@@ -1,21 +1,31 @@
 .navbar {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-  }
-  
-  .navbar li {
-    margin: 0 10px;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #222;
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar.shrink {
+  padding: 10px;
+  background: #111;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.home-container {
+  max-width: 1000px;
+  margin: 0 auto; /* Center content */
+  padding: 20px;
+}

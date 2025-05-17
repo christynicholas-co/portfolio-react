@@ -7,10 +7,11 @@ import "../styles/Footer.css";
 import "../styles/HeroSection.css";
 import "../styles/Navbar.css";
 import "../styles/ContentBlocks.css";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <Header />
       <main>
         <h1>Welcome to My Portfolio</h1>

@@ -1,5 +1,11 @@
 import React from "react";
 
+import "../styles/Header.css";
+import "../styles/Footer.css";
+import "../styles/HeroSection.css";
+import "../styles/Navbar.css";
+import "../styles/ContentBlocks.css";
+
 const Home = () => {
   return (
     <div>

@@ -14,3 +14,11 @@
   color: #555;
   line-height: 1.6;
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+}

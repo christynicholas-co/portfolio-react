@@ -47,6 +47,6 @@ This portfolio is a living project created to:
 ## 🤝 Connect with Me
 Let's build something great together!  
 - 🌐 Portfolio: [bytesandbrushes.com](https://bytesandbrushes.com)  
-- 📸 Instagram: [@christynicholas-co](https://instagram.com/christynicholas-co)  
+- 📸 Instagram: [@christynicholas-co](https://instagram.com/christynicholas.co)  
 - 💻 GitHub: [@christynicholas-co](https://github.com/christynicholas-co/portfolio-react)  
 - 📧 Email: christy@bytesandbrushes.com 

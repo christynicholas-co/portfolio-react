@@ -1,24 +1,29 @@
 .hero-section {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  pointer-events: none;
+}
+
+.hero-trapezoid {
+  background:#fff;
+  padding: 30px 50px;
+  clip-path: polygon (0 0, 100% 0, 85% 100%, 15% 100%);
+  box-shadow: 0 2px 8px rgba( 0, 0, 0, 0.1);
   text-align: center;
-  padding: 60px 20px;
+  max-width: 600px;
 }
 
-.hero-section h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #222;
+.hero-trapezoid h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #111;
 }
 
-.hero-section p {
-  font-size: 1.3rem;
+.hero-trapezoid p {
+  font-size: 1rem;
   color: #555;
-  line-height: 1.6;
-}
-
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-  text-align: center;
+  margin-top: 10px;
 }

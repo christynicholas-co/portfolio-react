@@ -1,0 +1,24 @@
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    color: #fff;
+    width: 140px;
+    height: 80px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.button-card:hover {
+    background:#555;
+}

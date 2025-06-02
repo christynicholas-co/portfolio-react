@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/ContentBlock.css";
+import "../../styles/home/ContentBlock.css";
 
 const ContentBlock = () => {
     const buttons = [

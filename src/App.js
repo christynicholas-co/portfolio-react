@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+import PageTemplate from "./components/template/PageTemplate";
 
 const App = () => {
   return (

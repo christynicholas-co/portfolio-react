@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
-import ContentBlock from "../components/ContentBlock";
-import Footer from "../components/Footer";
+import Navbar from "../components/home/Navbar";
+import HeroSection from "../components/home/HeroSection";
+import ContentBlock from "../components/home/ContentBlock";
+import Copyright from "../components/common/Copyright";
 
-import "../styles/Home.css";
+import "../styles/home/Home.css";
 
 const Home = () => {
   return (

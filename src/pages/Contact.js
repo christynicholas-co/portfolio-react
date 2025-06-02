@@ -1,11 +1,14 @@
 import React from "react";
+import PageTemplate from "../components/template/PageTemplate";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact Me</h1>
-      <p>Let's connect! Feel free to reach out via email or social media.</p>
-    </div>
+    <PageTemplate>
+      <section className="PageTemplate">
+        <h1 className="page-heading">Contact Me</h1>
+        <p>Let's connect! Feel free to reach out via email or social media.</p>
+      </section>
+   </PageTemplate>
   );
 };
 

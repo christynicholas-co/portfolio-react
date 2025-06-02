@@ -1,11 +1,14 @@
 import React from "react";
+import PageTemplate from "../components/template/PageTemplate"
 
 const Portfolio = () => {
   return (
-    <div>
-      <h1>My Work</h1>
+    <PageTemplate>
+    <section className="page-content">
+      <h1 className="page-heading">My Work</h1>
       <p>Here are some of my recent projects.</p>
-    </div>
+    </section>
+    </PageTemplate>
   );
 };
 

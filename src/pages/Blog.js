@@ -1,11 +1,14 @@
 import React from "react";
+import PageTemplate from "../components/template/PageTemplate";
 
 const Blog = () => {
   return (
-    <div>
-      <h1>Blog</h1>
+    <PageTemplate>
+    <section className="page-content">
+      <h1 className="page-heading">Blog</h1>
       <p>Check out my latest thoughts and tutorials on design and coding.</p>
-    </div>
+    </section>
+    </PageTemplate>
   );
 };
 

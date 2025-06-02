@@ -1,0 +1,30 @@
+.template-navbar {
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .template-navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #A5A694;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .template-navbar-links a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .template-navbar-links a:hover {
+    color: #8C6111;
+  }
+  
